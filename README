@@ -1,0 +1,18 @@
+# User Dictionary Converter for Mac
+
+## What?
+
+This script generate a user dictionary file for MacOS input method from a file
+that is for Google Japanese IME.
+
+## Usage
+
+First, generate a user dictionary file.
+
+```
+./udc.rb -i source.txt -o output.plist
+```
+
+Second, open keyboard preference and select "Text" tab.
+
+And then, drag and drop the generated file to the window.
